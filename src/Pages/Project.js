@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from '../Componants/Header';
+import Footer from "../Componants/Footer";
 
 const experiences = [
   {
@@ -60,9 +62,11 @@ const ExperienceCard = ({ title, description, technologies, image }) => (
 
 const OurExperiencePage = () => {
   return (
+    <div>
+      <Header></Header>
     <div className="min-h-screen bg-gray-50 py-10">
       <div className=" mx-auto px-6 sm:px-10 ">
-        <h1 className="text-3xl text-[60px] font-bold text-gray-800 text-center mb-14">
+        <h1 className="text-3xl text-[40px] font-semibold  text-gray-800 text-center mb-20 pt-11">
           Our Experience
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -71,6 +75,8 @@ const OurExperiencePage = () => {
           ))}
         </div>
       </div>
+    </div>
+    <Footer></Footer>
     </div>
   );
 };

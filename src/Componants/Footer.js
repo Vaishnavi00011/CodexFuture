@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Company Info */}
         <div>
-          <h2 className="text-lg font-semibold text-white mb-4">IT Company</h2>
+          <h2 className="text-lg font-semibold text-white mb-4">CodexFuture Technologies Pvt. Ltd. </h2>
           <p className="text-sm">
             Providing innovative IT solutions to businesses worldwide. Your
             success is our priority.
@@ -18,24 +19,24 @@ const Footer = () => {
           <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
           <ul className="space-y-2">
             <li>
-              <a href="#about" className="hover:text-white">
+              <Link to={"/about-us"}>
+              <a href="about" className="hover:text-white">
                 About Us
               </a>
+              </Link>
             </li>
             <li>
+              <Link to={"/sarvice"}>
               <a href="#services" className="hover:text-white">
                 Services
               </a>
+              </Link>
             </li>
             <li>
-              <a href="#careers" className="hover:text-white">
-                Careers
-              </a>
-            </li>
-            <li>
+              <Link to={'/contact'}>
               <a href="#contact" className="hover:text-white">
                 Contact Us
-              </a>
+              </a></Link>
             </li>
           </ul>
         </div>
@@ -44,47 +45,38 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Follow Us</h3>
           <div className="flex space-x-4">
-          <i class="fa fa-facebook-official" aria-hidden="true"></i>
-     
-            {/* <a
-              href="https://facebook.com"
+            <a
+              href="https://facebook.com" // Replace with your Facebook page URL
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white"
             >
-              <i className="fab fa-facebook-f"></i>
-            </a> */}
-            {/* <a
-              href="https://twitter.com"
+              <i className="fa fa-facebook-official" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://instagram.com" // Replace with your Instagram page URL
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white"
             >
-              <i className="fab fa-twitter"></i>
-            </a> */}
-            {/* <a
-              href="https://linkedin.com"
+              <i className="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://linkedin.com" // Replace with your LinkedIn page URL
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white"
             >
-              <i className="fab fa-linkedin-in"></i>
-            </a> */}
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
-            <i class="fa fa-whatsapp" aria-hidden="true"></i>
-            
-
-
-
-            {/* <a
-              href="https://instagram.com"
+              <i className="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://wa.me/yourphonenumber" // Replace with your WhatsApp link
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white"
             >
-              <i className="fab fa-instagram"></i>
-            </a> */}
+              <i className="fa fa-whatsapp" aria-hidden="true"></i>
+            </a>
           </div>
         </div>
       </div>
@@ -92,7 +84,7 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div className="mt-8 border-t border-gray-700 pt-4 text-center">
         <p className="text-sm">
-          © 2024 IT Company. All rights reserved.
+          © 2024 CodexFuture Technologies Pvt. Ltd. All rights reserved.
         </p>
       </div>
     </footer>
