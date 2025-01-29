@@ -31,13 +31,16 @@ const FreeCodeCampPage = () => {
           </ul>
         </section>
 
-        <section>
-          <h2 className="text-3xl font-semibold text-gray-800 border-b-2 border-green-500 pb-2">Example: HTML Basics</h2>
-          <p className="text-gray-700 mt-4">
-            Here’s an example of a simple HTML structure you might learn in FreeCodeCamp:
-          </p>
-          <pre className="bg-gray-100 p-6 rounded-lg shadow-md mt-6 text-sm">
-            <code>
+        <section class="px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 py-8">
+  <h2 class="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-800 border-b-2 border-green-500 pb-2">
+    Example: HTML Basics
+  </h2>
+  <p class="text-gray-700 mt-4 text-sm sm:text-base md:text-lg">
+    Here’s an example of a simple HTML structure you might learn in FreeCodeCamp:
+  </p>
+  <div class="overflow-auto bg-gray-100 rounded-lg shadow-md mt-6 p-4">
+    <pre class="text-sm sm:text-base md:text-lg">
+      <code>
 {`<!DOCTYPE html>
 <html>
   <head>
@@ -48,9 +51,11 @@ const FreeCodeCampPage = () => {
     <p>Start your coding journey today!</p>
   </body>
 </html>`}
-            </code>
-          </pre>
-        </section>
+      </code>
+    </pre>
+  </div>
+</section>
+
 
         <section>
           <h2 className="text-3xl font-semibold text-gray-800 border-b-2 border-green-500 pb-2">Resources</h2>

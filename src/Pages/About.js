@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <div>
         <Header></Header>
-    <div className="bg-white min-h-screen py-10">
+    <div className="bg-white min-h-screen lg:py-10 py-6">
 
       {/* Header Section */}
       <div className=" text-black py-16">
@@ -19,7 +19,7 @@ const AboutUs = () => {
       </div>
 
       {/* About Section */}
-      <div className="py-16 px-6 max-w-7xl mx-auto">
+      <div className="lg:py-16 py-6 px-6 max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center gap-12">
           {/* Image */}
           <div className="w-full md:w-1/2">
@@ -31,10 +31,10 @@ const AboutUs = () => {
             <h2 className="text-3xl font-bold text-black mb-4">
               Our Mission
             </h2>
-            <p className="text-lg leading-relaxed mb-4 w-[80%]">
+            <p className="text-lg leading-relaxed mb-4  lg:w-[80%] w-[100%]">
               Our mission is to deliver innovative and effective solutions that help businesses thrive in the digital era. We aim to provide the highest quality services while fostering strong relationships with our clients.
             </p>
-            <p className="text-lg leading-relaxed w-[80%]">
+            <p className="text-lg leading-relaxed lg:w-[80%] w-[100%]">
               Whether it's web development, app development, or digital marketing, we bring our expertise to every project and ensure customer satisfaction.
             </p>
           </div>
@@ -42,7 +42,7 @@ const AboutUs = () => {
       </div>
 
       {/* Vision and Values Section */}
-      <div className="bg-gray-50 py-16">
+      <div className="bg-gray-50 lg:py-16 py-5">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-black mb-8">
             Our Vision & Values

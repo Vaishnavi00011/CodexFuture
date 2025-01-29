@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const OurExperience = () => {
   return (
@@ -21,9 +22,9 @@ const OurExperience = () => {
             and individuals worldwide through our unparalleled expertise.
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
             {/* Card 1 */}
-            <div className="bg-white bg-opacity-90 shadow-md rounded-lg lg:p-6 lg:px-0 px-2 transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+            <div className="bg-white bg-opacity-90 shadow-md rounded-lg lg:p-6 lg:px-0 px-2 py-6 lg:py-0   transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
               <div className="flex items-center justify-center mb-4">
                 <span className="text-black text-4xl font-bold">5+</span>
               </div>
@@ -36,7 +37,8 @@ const OurExperience = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="bg-white bg-opacity-90 shadow-md rounded-lg lg:p-6 lg:px-0 px-2 transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+            <Link to={"/project"}>
+            <div className="bg-white bg-opacity-90 shadow-md rounded-lg lg:p-6 lg:px-0 px-2 lg:py-0 py-6 transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
               <div className="flex items-center justify-center mb-4">
                 <span className="text-black text-4xl font-bold">200+</span>
               </div>
@@ -48,9 +50,10 @@ const OurExperience = () => {
                 everything in between.
               </p>
             </div>
+            </Link>
 
             {/* Card 3 */}
-            <div className="bg-white bg-opacity-90 shadow-md rounded-lg lg:p-6 lg:px-0 px-2 transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+            <div className="bg-white bg-opacity-90 shadow-md rounded-lg lg:p-6 lg:px-0 px-2 lg:py-0 py-6 transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
               <div className="flex items-center justify-center mb-4">
                 <span className="text-black text-4xl font-bold">3+</span>
               </div>

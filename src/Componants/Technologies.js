@@ -15,15 +15,15 @@ function App() {
       {/* Overlay Content */}
       <div className="relative z-100 flex flex-col items-center justify-center min-h-screen  px-4">
         {/* Header Text */}
-        <div className="text-center text-white mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold">Our Technology Stack</h1>
+        <div className="text-center text-white mb-8  lg:pt-0 pt-4">
+          <h1 className="text-3xl md:text-4xl  font-bold">Our Technology Stack</h1>
           <p className="mt-2 text-sm md:text-lg max-w-xl mx-auto">
             We leverage the most advanced and reliable technologies to deliver top-notch solutions.
           </p>
         </div>
 
         {/* Cards Section */}
-        <div className="w-full max-w-5xl grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="w-full max-w-5xl grid lg:gap-4 gap-1 lg:mb-0 mb-4 sm:grid-cols-2 lg:grid-cols-4">
           {/* Card 1 */}
           <div className="p-4 bg-white/90 rounded-lg shadow-md hover:shadow-lg transition duration-300">
             <h3 className="text-lg font-semibold text-gray-800">Programming Languages</h3>

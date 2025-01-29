@@ -8,7 +8,7 @@ const HomeTechnologies = () => {
         <p className="text-center text-gray-600 text-lg mb-12">
           Discover the cutting-edge tools and frameworks that power our innovative solutions.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8 gap-3">
           <div className="bg-white shadow-lg rounded-lg p-6 text-center">
             <img 
               src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" 

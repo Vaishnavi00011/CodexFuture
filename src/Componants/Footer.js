@@ -83,7 +83,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="mt-8 border-t border-gray-700 pt-4 text-center">
-        <p className="text-sm">
+        <p className="text-sm lg:px-0 px-1">
           © 2024 CodexFuture Technologies Pvt. Ltd. All rights reserved.
         </p>
       </div>

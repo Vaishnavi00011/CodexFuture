@@ -35,13 +35,15 @@ npx tailwindcss init`}
           </pre>
         </section>
 
-        <section>
-          <h2 className="text-3xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-2">Creating Components</h2>
-          <p className="text-gray-700 mt-4">
-            React components let you build reusable UI elements. Combine functional components with Tailwind classes to create visually appealing and interactive interfaces.
-          </p>
-          <pre className="bg-gray-100 p-6 rounded-lg shadow-md mt-6 text-sm">
-            <code>
+        <section className="p-4 sm:p-6">
+  <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-2">
+    Creating Components
+  </h2>
+  <p className="text-gray-700 mt-4 text-sm sm:text-base">
+    React components let you build reusable UI elements. Combine functional components with Tailwind classes to create visually appealing and interactive interfaces.
+  </p>
+  <pre className="bg-gray-100 p-4 sm:p-6 rounded-lg shadow-md mt-4 sm:mt-6 text-xs sm:text-sm overflow-x-auto">
+    <code>
 {`function Button({ label }) {
   return (
     <button className="bg-blue-500 text-white py-2 px-4 rounded-lg shadow hover:bg-blue-600 transition">
@@ -49,9 +51,9 @@ npx tailwindcss init`}
     </button>
   );
 }`}
-            </code>
-          </pre>
-        </section>
+    </code>
+  </pre>
+</section>
 
         <section>
           <h2 className="text-3xl font-semibold text-gray-800 border-b-2 border-blue-500 pb-2">Next Steps</h2>

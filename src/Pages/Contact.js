@@ -49,7 +49,7 @@ function Contact() {
       <p class="text-lg text-gray-600 mb-6">Have any questions or need support? Feel free to send us a message!</p>
 
       {/* <!-- Contact Form --> */}
-      <form action="https://formspree.io/f/mrbbnwbe" method="POST">
+      <form action="https://formspree.io/f/mqaeqvpo" method="POST">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
           {/* <!-- Name Field --> */}
           <div>

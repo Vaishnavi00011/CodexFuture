@@ -102,8 +102,6 @@ const StackOverflowPage = () => {
           </ul>
         </section>
       </main>
-
-     
     </div>
     <Footer></Footer>
     </div>

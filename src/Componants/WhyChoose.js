@@ -14,7 +14,7 @@ function WhyChoose() {
           </p>
 
           {/* Key Features */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8 gap-3 mt-12">
             {/* Feature 1 */}
             <div className="p-6 bg-blue-950 shadow-md rounded-lg hover:shadow-lg">
               <h3 className="text-lg sm:text-xl font-bold text-white">Expert Team</h3>

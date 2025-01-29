@@ -37,16 +37,16 @@ const OurServices = () => {
   };
  
   return (
-    <div className="bg-gray-50  pt-20 px-6">
+    <div className="bg-gray-50  lg:pt-20 pt-18 px-6">
       <div className="max-w-7xl mx-auto text-center">
-        <h1 className="text-[45px] font-extrabold text-black mb-6">
+        <h1 className="text-[45px] font-extrabold text-black lg:mb-6 mb-2">
           Our Services
         </h1>
-        <p className="text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
+        <p className="text-lg text-gray-600 lg:mb-12 mb-8 max-w-2xl mx-auto">
           Click on a service to learn more about what we offer.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:gap-8 gap-2">
           {services.map((service) => (
             <div
               key={service.id}

@@ -32,20 +32,23 @@ const GitHubPage = () => {
         </section>
 
         <section>
-          <h2 className="text-3xl font-semibold text-gray-800 border-b-2 border-gray-800 pb-2">Example: Creating a Repository</h2>
-          <p className="text-gray-700 mt-4">
-            Here’s an example of how to create a new repository using the GitHub CLI:
-          </p>
-          <pre className="bg-gray-100 p-6 rounded-lg shadow-md mt-6 text-sm">
-            <code>
+  <h2 className="text-2xl sm:text-3xl font-semibold text-gray-800 border-b-2 border-gray-800 pb-2">
+    Example: Creating a Repository
+  </h2>
+  <p className="text-gray-700 mt-4 text-sm sm:text-base">
+    Here’s an example of how to create a new repository using the GitHub CLI:
+  </p>
+  <pre className="bg-gray-100 p-4 sm:p-6 rounded-lg shadow-md mt-4 sm:mt-6 text-xs sm:text-sm overflow-x-auto">
+    <code>
 {`# Authenticate with GitHub
 gh auth login
 
 # Create a new repository
 gh repo create my-repo --public --clone`}
-            </code>
-          </pre>
-        </section>
+    </code>
+  </pre>
+</section>
+
 
         <section>
           <h2 className="text-3xl font-semibold text-gray-800 border-b-2 border-gray-800 pb-2">Resources</h2>
