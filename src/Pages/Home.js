@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from '../Componants/Header'
-import Intro from '../Componants/Intro'
-import OurExperiencePage from '../Componants/Experience'
-import Footer from '../Componants/Footer'
-import WhyChoose from '../Componants/WhyChoose'
-import Technologies from '../Componants/Technologies'
-import Services from '../Componants/Services'
-import Tech from '../Componants/Tech'
+import Header from '../Componants/Header1'
+import Intro from '../Componants/Intro1'
+import OurExperiencePage from '../Componants/Experience1'
+import Footer from '../Componants/Footer1'
+import WhyChoose from '../Componants/WhyChoose1'
+import Technologies from '../Componants/Technologies1'
+import Services from '../Componants/Services1'
+import Tech from '../Componants/Tech1'
 
 function Home() {
   return (
